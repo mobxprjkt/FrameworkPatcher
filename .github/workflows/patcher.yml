@@ -6,15 +6,15 @@ on:
       jar_urls:
         description: 'JSON object containing URLs to download the JAR files'
         required: true
-        default: '{"framework_jar_url": "", "services_jar_url": "", "miui_services_jar_url": "", "miui_framework_jar_url": ""}'
+        default: '{"framework_jar_url": "https://gitlab.com/mobxprjkt/framework-hos/-/raw/main/framework.jar?inline=false", "services_jar_url": "https://gitlab.com/mobxprjkt/framework-hos/-/raw/main/services.jar?inline=false", "miui_services_jar_url": "https://gitlab.com/mobxprjkt/framework-hos/-/raw/main/miui-services.jar?inline=false", "miui_framework_jar_url": "https://gitlab.com/mobxprjkt/framework-hos/-/raw/main/miui-framework.jar?inline=false"}'
       android_api_level:
         description: 'Android API level'
         required: true
-        default: '34'
+        default: '35'
       features:
         description: 'JSON object containing feature flags'
         required: true
-        default: '{"isCN": "true", "defaultcore": "true", "core": "false", "fixNotification": "true", "addGboard": "false", "disableFlagSecure": "true", "multiFloatingWindow": "true"}'
+        default: '{"isCN": "true", "defaultcore": "true", "core": "true", "fixNotification": "false", "addGboard": "false", "disableFlagSecure": "true", "multiFloatingWindow": "false"}'
       custom_device_name:
         description: 'Device Name'
         required: true
