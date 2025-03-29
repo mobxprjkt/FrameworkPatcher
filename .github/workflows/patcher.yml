@@ -14,7 +14,7 @@ on:
       features:
         description: 'JSON object containing feature flags'
         required: true
-        default: '{"isCN": "true", "defaultcore": "true", "core": "true", "fixNotification": "false", "addGboard": "false", "disableFlagSecure": "true", "multiFloatingWindow": "false"}'
+        default: '{"isCN": "true", "defaultcore": "false", "core": "false", "fixNotification": "false", "addGboard": "false", "disableFlagSecure": "false", "multiFloatingWindow": "false"}'
       custom_device_name:
         description: 'Device Name'
         required: true
